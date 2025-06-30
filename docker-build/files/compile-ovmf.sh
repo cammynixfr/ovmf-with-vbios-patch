@@ -27,6 +27,7 @@ git submodule init
 git submodule update --recursive
 
 # Build Basetools
+make -C /edk2/src/edk2/BaseTools/Source/C
 make -C BaseTools
 
 # NVIDIA VBIOS Patches
