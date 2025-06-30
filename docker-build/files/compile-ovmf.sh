@@ -23,6 +23,7 @@ git pull
 #git checkout vUDK2018
 git checkout ba0e0e4
 git pull --recurse-submodules
+git submodule init
 git submodule update --recursive
 
 # Build Basetools
